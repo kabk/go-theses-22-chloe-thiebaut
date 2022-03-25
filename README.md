@@ -1,2 +1,3 @@
-# go-theses-22-chloe-thiebaut
- 
+# A boilerplate template with 'boilerplate' CSS
+
+Somewhat 'default' styling
