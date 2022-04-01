@@ -86,6 +86,7 @@ a {
 a:hover {
   color: var(--color-text-link-hover);
   text-decoration: underline;
+  color: purple !important;
 }
 
 a:focus-visible {
@@ -123,21 +124,22 @@ h3{
 }
 
 h4{
-  font-size:0.60rem;
-  line-height:125%;
+  font-size:0.80rem;
+  line-height:20%;
   font-weight: lighter;
   font-style: italic;
-  color: blue;
+  color: purple;
 }
 
 h5{
-  font-weight: unset;
-  line-height: 0.93em;
+  font-size: 1em;
+  line-height: 1.5em;
   letter-spacing: 0.005em;
   font-stretch: condensed;
   text-transform: uppercase;
   font-style: italic;
   text-align: center;
+  color: black;
 }
 
 p{
@@ -213,7 +215,7 @@ text-align: center;
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 15px;
-  color: blue;
+  color: purple;
   display: block;
   transition: 0.3s;
   text-transform: uppercase;
@@ -243,7 +245,7 @@ text-align: center;
   font-size:50px;
   font-weight: bold;
   font-style: italic;
-  color: blue;
+  color: purple;
 }
 
 @media screen and (max-height: 450px) {
@@ -273,7 +275,7 @@ text-align: center;
 
 }
 
-.footnote {
+.reference {
   href:#fnref:1;
   title: return to article;
   color: black!important;
