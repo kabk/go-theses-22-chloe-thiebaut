@@ -83,6 +83,14 @@ a {
   text-decoration: none !important;
 }
 
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
 a:hover {
   color: var(--color-text-link-hover);
   color: purple !important;
@@ -260,6 +268,24 @@ text-align: center;
     padding: 10px;
 }
 
+.image-treatment-smaller {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70% !important;
+    height: 70% !important;
+    padding: 10px;
+}
+
+.image-treatment-tiny {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60% !important;
+    height: 60% !important;
+    padding: 10px;
+}
+
 /* Quotes */
 
 .quote {
@@ -273,11 +299,10 @@ text-align: center;
 }
 
 .reference {
-  href:#fnref:1;
-  title: return to article;
   color: black!important;
   font-weight: normal;
   text-decoration: none;
+  font-size: 80%;
 }
 
 
@@ -361,21 +386,125 @@ main{
 
 @media (max-width: 298px) {
   :root{ --font-size: 15px; } html, body {font: var(--font-size) var(--font-family);}
+  .image-treatment-smaller {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      height: 100% !important;
+      padding: 10px;
+  }
+
+  .image-treatment-tiny {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      height: 100% !important;
+      padding: 10px;
+  }
+
 }
 @media (min-width: 299px) and (max-width: 339px) {
   :root{ --font-size: 16px; } html, body {font: var(--font-size) var(--font-family);}
+  .image-treatment-smaller {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      height: 100% !important;
+      padding: 10px;
+  }
+
+  .image-treatment-tiny {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      height: 100% !important;
+      padding: 10px;
+  }
 }
 @media (min-width: 340px) and (max-width: 439px) {
   :root{ --font-size: 17px; } html, body {font: var(--font-size) var(--font-family);}
+  .image-treatment-smaller {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      height: 100% !important;
+      padding: 10px;
+  }
+
+  .image-treatment-tiny {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      height: 100% !important;
+      padding: 10px;
+  }
 }
 @media (min-width: 440px) and (max-width: 599px) {
   :root{ --font-size: 18px; } html, body {font: var(--font-size) var(--font-family);}
+  .image-treatment-smaller {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      height: 100% !important;
+      padding: 10px;
+  }
+
+  .image-treatment-tiny {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      height: 100% !important;
+      padding: 10px;
+  }
 }
 @media (min-width: 600px) and (max-width: 779px) {
   :root{ --font-size: 19px; } html, body {font: var(--font-size) var(--font-family);}
+.image-treatment-smaller {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 10px;
+  }
+
+  .image-treatment-tiny {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      height: 100% !important;
+      padding: 10px;
+  }
 }
+
 @media (min-width: 780px) and (max-width: 992px) {
   :root{ --font-size: 20px; } html, body {font: var(--font-size) var(--font-family);}
+  .image-treatment-smaller {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      height: 100% !important;
+      padding: 10px;
+  }
+
+  .image-treatment-tiny {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      height: 100% !important;
+      padding: 10px;
+  }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
   :root{ --font-size: 22px; } html, body {font: var(--font-size) var(--font-family);}
